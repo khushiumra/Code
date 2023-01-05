@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/assignmentPrevButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="previousMonthAction"
+        android:text="@string/backward"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/assignmentNextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="nextMonthAction"
+        android:text="@string/forward"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/dueDate4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#490E0E"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/assignment1"
+        app:layout_constraintTop_toBottomOf="@+id/dueDate3" />
+
+    <TextView
+        android:id="@+id/assignment4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#490E0E"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assignment3" />
+
+    <TextView
+        android:id="@+id/assignment3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#490E0E"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assignment2" />
+
+    <TextView
+        android:id="@+id/assignment2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#490E0E"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assignment1" />
+
+    <TextView
+        android:id="@+id/assignmentText"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#490E0E"
+        android:gravity="center"
+        android:text="Assignments"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/assignment1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:background="#490E0E"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assignmentText" />
+
+    <TextView
+        android:id="@+id/dueDate1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:background="#490E0E"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/assignment1"
+        app:layout_constraintTop_toBottomOf="@+id/assignmentText" />
+
+    <TextView
+        android:id="@+id/dueDate2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#490E0E"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/assignment1"
+        app:layout_constraintTop_toBottomOf="@+id/dueDate1" />
+
+    <TextView
+        android:id="@+id/dueDate3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#490E0E"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/assignment1"
+        app:layout_constraintTop_toBottomOf="@+id/dueDate2" />
+
+    <Button
+        android:id="@+id/createAssignmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/assignmentCreateLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="368dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/AssignmentNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Assignment Name"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/AssignmentDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Assignment Date"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/finalAssignmentButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

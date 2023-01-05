@@ -1,0 +1,42 @@
+2022-03-01 14:46:31.050  INFO 14596 --- [main] onetoone.Main                            : Starting Main using Java 1.8.0_321 on MSI with PID 14596 (C:\Users\Dhimal\.vscode\ComS 309 (SDP)\2_do_1\experiments\Madhav\backend\OnetoOneSQL\target\classes started by Dhimal in C:\Users\Dhimal\.vscode\ComS 309 (SDP)\2_do_1\experiments\Madhav\backend\OnetoOneSQL)
+2022-03-01 14:46:31.065  INFO 14596 --- [main] onetoone.Main                            : No active profile set, falling back to default profiles: default
+2022-03-01 14:46:32.123  INFO 14596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 14:46:32.278  INFO 14596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+2022-03-01 14:46:33.897  INFO 14596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 14:46:33.916  INFO 14596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 14:46:33.917  INFO 14596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-01 14:46:34.006  INFO 14596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 14:46:34.007  INFO 14596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2794 ms
+2022-03-01 14:46:34.391  INFO 14596 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 14:46:34.542  INFO 14596 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-03-01 14:46:34.864  INFO 14596 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-01 14:46:35.156  INFO 14596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-01 14:46:35.491  INFO 14596 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-01 14:46:35.552  INFO 14596 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-01 14:46:36.880  INFO 14596 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 14:46:36.897  INFO 14596 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 14:46:37.589  WARN 14596 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 14:46:37.780  INFO 14596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 14:46:38.272  INFO 14596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 14:46:38.296  INFO 14596 --- [main] onetoone.Main                            : Started Main in 7.962 seconds (JVM running for 8.572)
+2022-03-01 17:35:50.750  INFO 8076 --- [main] onetoone.Main                            : Starting Main using Java 1.8.0_321 on MSI with PID 8076 (C:\Users\Dhimal\.vscode\ComS 309 (SDP)\2_do_1\experiments\Madhav\backend\OnetoOneSQL\target\classes started by Dhimal in C:\Users\Dhimal\.vscode\ComS 309 (SDP)\2_do_1\experiments\Madhav\backend\OnetoOneSQL)
+2022-03-01 17:35:50.754  INFO 8076 --- [main] onetoone.Main                            : No active profile set, falling back to default profiles: default
+2022-03-01 17:35:51.359  INFO 8076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-01 17:35:51.423  INFO 8076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2022-03-01 17:35:52.461  INFO 8076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-01 17:35:52.477  INFO 8076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-01 17:35:52.477  INFO 8076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-01 17:35:52.557  INFO 8076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-01 17:35:52.561  INFO 8076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1731 ms
+2022-03-01 17:35:52.961  INFO 8076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-01 17:35:53.069  INFO 8076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2022-03-01 17:35:53.289  INFO 8076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-01 17:35:53.505  INFO 8076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-01 17:35:53.809  INFO 8076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-01 17:35:53.853  INFO 8076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-01 17:35:54.695  INFO 8076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-01 17:35:54.703  INFO 8076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-01 17:35:55.291  WARN 8076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-01 17:35:55.487  INFO 8076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-01 17:35:55.855  INFO 8076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-01 17:35:55.871  INFO 8076 --- [main] onetoone.Main                            : Started Main in 5.574 seconds (JVM running for 5.93)

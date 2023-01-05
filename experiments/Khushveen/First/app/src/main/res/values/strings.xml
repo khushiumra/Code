@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CyLearn</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Enter your username</string>
+    <string name="prompt_password">Enter your password</string>
+    <string name="action_sign_in">Continue to Workspace</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome to Cylearn!  "</string>
+    <string name="invalid_username">This is not a valid username!</string>
+    <string name="invalid_password">Password must be greater than 5 characters</string>
+    <string name="login_failed">"Login attempt failed"</string>
+    <string name="create_account">Create Account</string>
+    <string name="remember_me">Remember me</string>
+    <string name="welcome_to_cylearn">Welcome to CyLearn</string>
+    <string name="New_User">New User?</string>
+</resources>

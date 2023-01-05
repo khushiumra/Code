@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">CyLearn</string>
+    <string name="your_workspace">Your Workspace</string>
+
+    <string-array name="Choose_your_role">
+    <item>Student</item>
+    <item>Professor</item>
+    <item>Admin</item>
+    <item>Employee</item>
+    <item>Manager</item>
+    <item>HR</item>
+
+</string-array>
+</resources>

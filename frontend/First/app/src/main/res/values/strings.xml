@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CyLearn</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Continue to Workspace</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome to Cylearn!  "</string>
+    <string name="invalid_username">This is not a valid username!</string>
+    <string name="invalid_password">Password must be greater than 5 characters</string>
+    <string name="login_failed">"Login attempt failed"</string>
+    <string name="create_account">Create Account</string>
+    <string name="remember_me">Remember me</string>
+    <string name="welcome_to_cylearn">Welcome to CyLearn</string>
+    <string name="New_User">New User?</string>
+    <string name="backward"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="takenotes">Take Notes</string>
+    <string name="upload">Upload Documents</string>
+    <string name="goback">Back to Dashboard</string>
+    <string name="my_notes">My Notes</string>
+    <string name="search_notes">Search notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_note_here">Type note here..</string>
+    <string name="storage_files">Storage Folders</string>
+    <string name="choose_folder_to_save_files">Choose Folder to Save Files</string>
+    <string name="no_files_found">NO FILES FOUND</string>
+    <string name="my_documents">My Documents</string>
+    <string name="cylearn">CyLearn</string>
+    <string name="appointment">Appointment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="back_to_notes">Back to Notes</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    <string name="the_coversation_will_appear_here_n">The Coversation will appear here:\n</string>
+    <string name="send">Send</string>
+    <string name="message">Type your message here</string>
+    <string name="user_id">USER ID</string>
+    <string name="connect">Connect</string>
+</resources>

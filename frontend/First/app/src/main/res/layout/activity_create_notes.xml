@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".createNotes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:clipToPadding="false"
+        android:paddingBottom="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <ImageView
+                android:id="@+id/imageback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_back"
+                app:tint="@color/icons"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/imageSave"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/background_done"
+                android:contentDescription="@string/app_name"
+                android:padding="4dp"
+                android:src="@drawable/ic_baseline_done_24"
+                app:tint="@color/icons"
+                app:layout_constraintBottom_toBottomOf="@id/imageback"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/imageback"/>
+
+            <EditText
+                android:id="@+id/inputTitle"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="12dp"
+                android:background="@null"
+                android:hint="@string/note_title"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/textHint"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/imageback" />
+
+            <TextView
+                android:id="@+id/textDateTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textColor="@color/icons"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="@id/inputTitle"
+                app:layout_constraintStart_toStartOf="@id/inputTitle"
+                app:layout_constraintTop_toBottomOf="@id/inputTitle"/>
+
+            <EditText
+                android:id="@+id/noteSubtitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="12dp"
+                android:background="@null"
+                android:hint="@string/note_subtitle"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="textMultiLine"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/text_subtitle"
+                android:textColorHint="@color/textHint"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/viewIndicator"
+                app:layout_constraintTop_toBottomOf="@id/textDateTime"/>
+
+            <View
+                android:id="@+id/viewIndicator"
+                android:layout_width="5dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/background_subtitle"
+                app:layout_constraintBottom_toBottomOf="@id/noteSubtitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/noteSubtitle"/>
+
+            <EditText
+                android:id="@+id/inputNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="15dp"
+                android:background="@null"
+                android:gravity="top"
+                android:hint="@string/type_note_here"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="textMultiLine"
+                android:minHeight="100dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/textHint"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/noteSubtitle"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

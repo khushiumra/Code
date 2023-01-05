@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:filterTouchesWhenObscured="true"
+    tools:context=".AppointmentFragment">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="408dp"
+        android:layout_height="350dp"
+        android:layout_margin="40dp"
+        android:background="#f1f1f1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/appointrow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appointWithText"
+                android:layout_width="254sp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Appointment With"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/appointDateText"
+                android:layout_width="154dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Date"
+                android:textSize="40sp"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appoint1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appoint2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appoint3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appoint4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/date4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appoint5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/date5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/appoint6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/date6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="35sp" />
+        </TableRow>
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/makeAppointLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#36454f"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/appointCreateName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Appointment With Who?"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/appointCreateDate"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appointCreateName" />
+
+        <Button
+            android:id="@+id/createAppointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="Create"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appointCreateDate" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/makeAppointButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Make Appointmnent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

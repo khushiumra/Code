@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/newGroup"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:text="New Group"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/groupSix"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:text=""
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toEndOf="@+id/groupFive"
+        app:layout_constraintTop_toBottomOf="@+id/groupFour" />
+
+    <Button
+        android:id="@+id/groupFive"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:text=""
+        android:enabled="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupThree" />
+
+    <TextView
+        android:id="@+id/groupText"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#490E0E"
+        android:gravity="center"
+        android:text="Groups"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GroupOne"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Group 1"
+        android:enabled="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/groupText" />
+
+    <Button
+        android:id="@+id/groupThree"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:text=""
+        android:enabled="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GroupOne" />
+
+    <Button
+        android:id="@+id/groupFour"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:text=""
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toEndOf="@+id/groupThree"
+        app:layout_constraintTop_toBottomOf="@+id/GroupTwo" />
+
+    <Button
+        android:id="@+id/GroupTwo"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toEndOf="@+id/GroupOne"
+        app:layout_constraintTop_toBottomOf="@+id/groupText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516">
+
+
+        <EditText
+            android:id="@+id/createGroupText"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:hint="Group Name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/finalGroupButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Create" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
