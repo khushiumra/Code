@@ -21,7 +21,7 @@ Macintyre Whitney
 
 **CyLearn** 
 
-**Demo Video Link** - [Link] (https://www.youtube.com/watch?v=_w0lhOk39fM)
+**Demo Video Link** - [Link](https://www.youtube.com/watch?v=_w0lhOk39fM).
 
 **Purpose**: To allow students and teachers to have a single platform to share ideas and be able to manage all the things required in a college setting.
 
