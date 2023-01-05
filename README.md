@@ -1,16 +1,26 @@
-
-#Iowa State University - Course COM S 309
+# Iowa State University - Course COM S 309
 COM S 309 - Software Development Practise
 
 This course was a practical introduction to methods for managing software development. In this course I learned about process models, requirements analysis, structured and object-oriented design, coding, testing, maintenance, cost and schedule estimation, metrics.
 
-**COMS 309 PROPOSAL ASSIGNMENT Developed by: **
+**COMS 309 PROPOSAL ASSIGNMENT Developed by:**
+
+*Frontend:*
 
 Khushveen Kaur Umra
+Steven Tran
+
+*Backend:*
+
 Madhav Dhimal
-Steven tran
-Macintrye Whitney
+Macintyre Whitney
+
+
+
+
+
 Name: CyLearn
+
 
 Purpose: To allow students and teachers to have a single platform to share ideas and be able to manage all the things required in a college setting.
 
